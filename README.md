@@ -1,4 +1,4 @@
-# Rails-docker_with_pg
+# Dockerize Rails Application With Postgresql
 
 1 In the root directory of your Rails app, create a file named `Dockerfile` (without any file extensions) with the following content:
 
