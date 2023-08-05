@@ -75,6 +75,6 @@ That's it! You've successfully dockerized your Rails app with a local PostgreSQL
 Remember that this is a basic setup, and for production use, you may need to consider additional configurations like environment variables, data persistence, and security.
 
 8 Other Cmd For Docker
-
-  Remove `docker system prune --volumes`
-
+  
+  Remove Volume `docker system prune --volumes`
+  Run Rails cmd `docker-compose run web bundle exec rails g scaffold artist name`
