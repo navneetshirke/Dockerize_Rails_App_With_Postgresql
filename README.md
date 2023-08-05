@@ -56,10 +56,10 @@ volumes:
 
 3 Make sure to replace your_postgres_username, your_postgres_password, and your_postgres_database_name with your actual PostgreSQL credentials.
 
-4 # Build the Docker containers
+4 Build the Docker containers
 `docker-compose build`
 
-5 # Start the Docker containers
+5 Start the Docker containers
 `docker-compose up`
 
 6 Setup and Migrate the Database:
@@ -68,7 +68,7 @@ In a new terminal tab/window, run the following command to create and migrate th
 `docker-compose run web bundle exec rake db:setup`
 `docker-compose run web bundle exec rake db:migrate`
 
-7 # Access the Rails app:
+7 Access the Rails app:
 Now your Rails app should be accessible at http://localhost:3000. You can interact with it just like a regular Rails app running on your local machine.
 That's it! You've successfully dockerized your Rails app with a local PostgreSQL database. You can stop the Docker containers by pressing Ctrl+C in the terminal running docker-compose up.
 
@@ -77,4 +77,5 @@ Remember that this is a basic setup, and for production use, you may need to con
 8 Other Cmd For Docker
   
   Remove Volume `docker system prune --volumes`
+
   Run Rails cmd `docker-compose run web bundle exec rails g scaffold artist name`
