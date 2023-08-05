@@ -73,3 +73,8 @@ Now your Rails app should be accessible at http://localhost:3000. You can intera
 That's it! You've successfully dockerized your Rails app with a local PostgreSQL database. You can stop the Docker containers by pressing Ctrl+C in the terminal running docker-compose up.
 
 Remember that this is a basic setup, and for production use, you may need to consider additional configurations like environment variables, data persistence, and security.
+
+8 Other Cmd For Docker
+
+  Remove `docker system prune --volumes`
+
